@@ -28,11 +28,9 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/ipaddress.rb",
-    "lib/ipaddress/extensions/extensions.rb",
     "lib/ipaddress/ipv4.rb",
     "lib/ipaddress/ipv6.rb",
     "lib/ipaddress/prefix.rb",
-    "test/ipaddress/extensions/extensions_test.rb",
     "test/ipaddress/ipv4_test.rb",
     "test/ipaddress/ipv6_test.rb",
     "test/ipaddress/prefix_test.rb",
@@ -44,7 +42,6 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{IPv4/IPv6 addresses manipulation library}
   s.test_files = [
-    "test/ipaddress/extensions/extensions_test.rb",
     "test/ipaddress/ipv4_test.rb",
     "test/ipaddress/ipv6_test.rb",
     "test/ipaddress/prefix_test.rb",
